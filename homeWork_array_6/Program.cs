@@ -28,7 +28,7 @@ namespace homeWork_array_6
                 Console.Write(numbers[i] + " ");
             }
 
-            for (int i = 0; i < numbers.Length; i++) 
+            for (int i = 0; i < numbers.Length - 1; i++) 
             {
                 for (int j = 1; j < numbers.Length; j++) 
                 {
